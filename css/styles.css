@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin: 9% 0 5%;
   }
-  
+
   .scroll-top{
     bottom: 5px;
     right: 7px;
@@ -233,5 +233,22 @@ h1, h2, h3, h4, h5, h6 {
     width: 35%;
     border-radius: 5px;
   }
+}
 
+/* Thankyou Page */
+
+.check-img{
+  width: 10%;
+  margin-top: 8%;
+}
+
+.thankyou-heading{
+  color: #292929;
+  font-size:10rem;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.back-img{
+  width: 10%;
 }
