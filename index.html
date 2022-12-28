@@ -27,10 +27,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@700&display=swap');
   </style>
 
-  <!-- Javascript -->
-  <script type="text/javascript" src="index.js"></script>
-
-</head>
+  </head>
 
 <body>
 
@@ -164,14 +161,26 @@
         </div>
         <div class="contact-element2">
           <div class="contact-form">
-            <form class="" action="index.html" method="post">
-              <input class="small-field" type="text" name="fname" placeholder="First name"> <input class="small-field" type="text" name="lname" placeholder="Last name"> <br>
-              <input class="long-field" type="text" name="email-id" placeholder="Email"> <br>
-              <input class="small-field" type="text" name="contact-num" placeholder="Contact number"> <input class="small-field" type="text" name="message" placeholder="Message"> <br>
-              <button class="send-btn btn btn-primary " type="submit" name="send-btn"> Send </button>
+            <form id="form" class="" action="index.html" method="post">
+              <input class="small-field" type="text" id="fname" placeholder="First name"> <input class="small-field" type="text" id="lname" placeholder="Last name"> <br>
+              <input class="long-field" type="text" id="emailId" placeholder="Email"> <br>
+              <input class="small-field" type="text" id="contactNum" placeholder="Contact number"> <input class="small-field" type="text" id="message" placeholder="Message"> <br>
+              <button class="send-btn btn btn-primary" type="button" id="send-btn" onclick="addUsers();"> Send </button>
             </form>
           </div>
         </div>
+    </div>
+  </section>
+
+  <section id="thankyou-modal">
+    <div id="myModal" class="modal">
+
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img class="check-img" src="images/check.png" alt="done">
+        <h1 class="thankyou-heading">THANK YOU!</h1>
+      </div>
+
     </div>
   </section>
 
@@ -186,6 +195,12 @@
       <p style="font-weight:500; color:#000000;">© Copyright 2022 iAMSABLE</p>
     </div>
   </footer>
+
+  <!-- Javascript -->
+  <script type="text/javascript" src="index.js"></script>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 
 
 </body>

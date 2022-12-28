@@ -179,6 +179,20 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 
+/* Modal */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
 /* Footer */
 #footer {
   background-color: #e0e0e0;
@@ -206,13 +220,14 @@ h1, h2, h3, h4, h5, h6 {
 
   .home-image{
     position: static;
+    width: 50%;
     text-align: center;
     margin: 9% 0 5%;
   }
 
   .scroll-top{
-    bottom: 5px;
-    right: 7px;
+    bottom: 8px;
+    right: 10px;
   }
 
   #about h6{
@@ -230,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .about-img {
-    width: 35%;
+    width: 25%;
     border-radius: 5px;
   }
 }
