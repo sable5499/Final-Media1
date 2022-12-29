@@ -47,5 +47,5 @@ function addUsers() {
 
 
 function getResume() {
-  window.open("https://drive.google.com/file/d/1HO24zhMhHHEMyYIS64apeAZ3pJBlizof/view?usp=sharing");
+  window.open("https://drive.google.com/file/d/15xm_cjZS1J2ahh2XRRTyqTrmJLBVX25x/view?usp=sharing");
 }
